@@ -18,7 +18,7 @@ public class Tarea {
         if (completada) {
             return "[x] " + titulo;
         }
-        return "[] " + titulo;
+        return "[ ] " + titulo;
     }
 
     public boolean estaCompletada(){
