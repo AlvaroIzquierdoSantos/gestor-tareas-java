@@ -14,4 +14,9 @@ public class GestorTareas {
             System.out.println((i + 1) + ". " + tareas.get(i));
         }
     }
+
+    public void completar(int numero){
+        Tarea tarea = tareas.get(numero - 1);
+        tarea.completar();
+    }
 }
